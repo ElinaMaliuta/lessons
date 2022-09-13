@@ -1,0 +1,33 @@
+*{
+	color: rgb(60, 55, 65);
+}
+h1,h2{
+	color: rgb(10, 51, 197);
+}
+h3,a{
+	color: rgb(255, 68, 0);
+}
+.all-text-green p{
+	color: rgb(9, 148, 14);
+}
+.all-text-green .orange {
+	color: orange;
+}
+.lime *{
+	color: limegreen;
+}
+.pink > p{
+	color: pink;
+}
+.coral ~ p{
+	color: coral;
+}
+.blueviolet + p {
+	color: blueviolet;
+}
+div.aqua{
+	color: aqua;
+}
+.aqua.pink{
+	color: aquamarine ;
+}
