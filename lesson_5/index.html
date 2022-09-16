@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 5</title>
+</head>
+
+<body>
+	<header></header>
+	<main>
+		<h1 id="top">Домашнє завдання до 5 уроку</h1>
+		<h2>Завдання:</h2>
+		<ol>
+			<li><a href="#obnulennya" class="link">Використовуємо обнулення!</a></li>
+			<li><a href="#verstaemo" class="link">Верстаємо статтю.</a></li>
+			<li><a href="#selektory" class="link">Пропрацьовуємо селектори, комбінації та пріоритетніст</a></li>
+			<li><a href="#shryfty" class="link">Підключаємо 2 родини шрифтів, з кількома стилями (font-style, font-weight)
+					різними методами.</a></li>
+			<li> <a href="#css-vlastyvosti" class="link">Пропрацьовуємо УСІ властивості та їх значення з п'ятого уроку.</a>
+			</li>
+		</ol>
+		<h2>Розв'язання:</h2>
+		<h3 id="obnulennya">1. Використовуємо обнулення!</h3>
+		<p>Файл обнулення "reset.css" підключено в файл "index.html" в тег "head" наступним рядком:<br>
+			link rel="stylesheet" href="css/reset.css"
+		</p>
+		<h3 id="verstaemo">2. Верстаємо статтю.</h3>
+		<p>Верстаємо веб-сторінку відпрацьовучи пункти 3 (з уроку 3), 4 (з уроку 4), 5 (з уроку 5) завдання.
+		</p>
+		<h3 id="selektory">3. Пропрацьовуємо селектори, комбінації та пріоритетність.</h3>
+
+		<h4><mark>Комбінації селекторів.</mark></h4>
+		<p class="black">==================</p>
+		<div class="text">
+			<p> DIV з класом text.</p>
+		</div>
+		<p class="black">==================</p>
+		<div class="lesson">
+			<p>DIV з класом lesson.</p>
+		</div>
+		<p class="black">==================</p>
+		<div class="text lesson">
+			<p>DIV з класом text та lesson.</p>
+		</div>
+		<p class="black">==================</p>
+		<div class="aaa">
+			<p>DIV з класом aaa.</p>
+		</div>
+		<p class="black">==================</p>
+		<div class="bbb">
+			<p>DIV з класом bbb.</p>
+		</div>
+		<p class="black">==================</p>
+		<div class="ccc">
+			<p>DIV з класом ccc.</p>
+		</div>
+		<p class="black">==================</p>
+		<div class="ddd">
+			<p>DIV з класом ddd.</p>
+		</div>
+		<p class="black">==================</p>
+		<div>
+			<p class="eee">Параграф з класом text та eee.</p>
+			<p>Параграф без класу.</p>
+			<p class="eee">Параграф з класом text та eee.</p>
+		</div>
+		<p class="black">==================</p>
+		<h4><mark>Вкладенність (каскадність) селекторів.</mark></h4>
+		<p class="black">==================</p>
+		<div class="fff">
+			<p>Параграф в DIV з клаcом fff.</p>
+			<a href="#">Посилання.</a>
+			<p>Параграв в DIV з клаcом fff.</p>
+		</div>
+		<p class="black">==================</p>
+		<div class="ggg">
+			<p class="hhh">Параграф з класом hhh в DIV з клаcом ggg. </p>
+			<a href="#">Посилання.</a>
+			<p>Параграф в DIV з клаcом ggg.</p>
+		</div>
+		<p class="black">==================</p>
+		<div class="jjj">
+			<p>Параграф 1-го рівня в DIV з клаcом jjj.</p>
+			<p>Параграф 1-го рівня в DIV з клаcом jjj.</p>
+			<div>
+				<p>Параграф 2-го рівня в DIV з клаcом jjj.</p>
+				<p>Параграф 2-го рівня в DIV з клаcом jjj.</p>
+			</div>
+			<p>Параграф 1-го рівня в DIV з клаcом jjj.</p>
+		</div>
+		<p class="black">==================</p>
+		<p>Параграф без класу.</p>
+		<p class="kkk">Параграф з класом kkk.</p>
+		<p>Параграф без класу.</p>
+		<p>Параграф без класу.</p>
+		<p>Параграф без класу.</p>
+		<p class="black">==================</p>
+		<div>
+			<p>Параграф 1-го рівня без класу.</p>
+			<div>
+				<p>Параграф 2-го рівня без класу.</p>
+				<div>
+					<p class="qqq">Параграф 3-го рівня без класу.</p>
+					<p>Параграф 3-го рівня без класу.</p>
+				</div>
+				<p>Параграф 2-го рівня без класу.</p>
+			</div>
+			<p>Параграф 1-го рівня без класу.</p>
+		</div>
+		<p class="black">==================</p>
+		<p>Параграф без класу.</p>
+		<p class="lll ">Параграф з класом lll.</p>
+		<p>Параграф без класу.</p>
+		<p>Параграф без класу.</p>
+		<h3 id="shryfty">4. Підключаємо 2 родини шрифтів з кількома стилями (font-style, font-weight) різними методами.
+		</h3>
+		<p>
+			<mark>Підключення шрифту через імпорт з Google.</mark>
+		</p>
+		<p>
+			В папці CSS створюємо новий файл "fonts.css". Підключаємо його в файл "index.html" в тег "head" наступним
+			рядком:<br>
+			link rel="stylesheet" href="css/font.css"<br>
+			Знаходимо в <a href="https://fonts.google.com/specimen/Montserrat/tester"> Google</a> шрифт Montserrat.
+			Копіюємо код для імпорту цього шрифта: @import
+			url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'). Вставляємо код з буферу в файл
+			fonts.css. Перевіряємо, чи підключився шрифт: призначаємо для якогось тегу (для bоdy, наприклад) родину шрифта.
+		</p>
+		<p>
+			<mark>Підключення шрифту через додання його в папку проекту.</mark>
+		</p>
+		<p>
+			Знаходимо шрифт на Google fonts або на сторонньому ресурсі. Скачуємо потрібний шрифт. В нашому випадку скачаний шрифт Caveat. Файли шрифта можуть бути з різними форматами: .woff2 та .woff або .ttf. В папку fonts необхідно додати або файли .woff2 та .woff або .ttf. Далі підключаюємо шрифти в файл "fonts.css" за допомогою @font-face. Файли з розширенням .woff2 та .woff підключаються по черзі: спочатку .woff2, потім .woff з форматами відповідно woff2 та woff. Файл з форматом .ttf підключається з форматом truetype. Перевіряємо, чи підключився шрифт: призначаємо для якогось тегу (для bоdy, наприклад) родину шрифта.
+		</p>
+		<p>Приклади підключенних шрифтів:</p>
+		<p class="montserrat">Вітаю, я шрифт Montserrat.</p>
+		<p class="caveat400">Вітаю, я шрифт Caveat розмір 400.</p>
+		<p class="caveat700">Вітаю, я шрифт Caveat розмір 700.</p>
+		<p class="roboto">Вітаю, я шрифт Roboto розмір 700 italic.</p>
+		<h3 id="css-vlastyvosti">5. Пропрацьовуємо УСІ властивості та їх значення з п'ятого уроку.</h3>
+		<p><mark>CSS-властивості тексту</mark></p>
+		<p class="qqww">Приклад родини шрифта.</p>
+		<p class="eerr">16px</p>
+		<p class="ttyy">30px</p>
+		<p class="uuii">40px</p>
+		<p class="oopp">Стиль italic</p>
+		<p class="aass">Стиль oblique</p>
+		<p class="ddff">100 - thin</p>
+		<p class="gghh">300 - lite</p>
+		<p class="jjkk">400 - Regular (normal)</p>
+		<p class="zzxx">500 - medium</p>
+		<p class="ccvv">600 - semibold</p>
+		<p class="bbnn">700 - bold</p>
+		<p class="qwe">900 - black</p>
+		<p style="color:blueviolet;">Колір</p>
+		<p style="color:rgba(137, 43, 226, 0.5);">Колір-прозорість.</p>
+		<p style="text-align: center;">Вирівнювання тексту.</p>
+		<p style="text-align: left;">Вирівнювання тексту.</p>
+		<p style="text-align: right;">Вирівнювання тексту.</p>
+		<div style="width: 50%;">
+			<p style="text-align: justify;">Вирівнювання тексту. justify - вирівнює текст по ширині об'єкту в якому він знаходиться 
+				автоматично змінюючи пробіли між словами</p>
+		</div>
+		<p style="text-decoration: line-through;">text-decoration</p>
+		<p style="text-decoration: overline;">text-decoration</p>
+		<p style="text-decoration: underline;">text-decoration</p>
+		<p style="text-decoration: none;">text-decoration</p>
+		<p style="text-shadow: 2px 2px 2px blueviolet;"> Тінь (горизонтальне_зміщення вертикальне_зміщення розмір колір).</p>
+		<p style="text-transform: capitalize;">text-transform = Capitalize</p>
+		<p style="text-transform: lowercase;">text-transform = lowercase</p>
+		<p style="text-transform: uppercase ;">text-transform = uppercase </p>
+		<p style="line-height: 1;">Міжрядковий інтервал (px) = розмір шрифта * значення міжрядкового інтервалу.</p>
+		<p style="line-height: 1.5;">Міжрядковий інтервал дорівнює = розмір шрифта * значення міжрядкового інтервалу.</p>
+		<p style="text-indent: 20px;">Червона строка.</p>
+		<p style="letter-spacing: 10px;">Інтервал між літерами 10 px.</p>
+		<p style="word-spacing: 10px;">Інтервал між словами (10 px).</p>
+		<p style="white-space: nowrap;">Поведінка пробілів між словами. nowrap забороняє перенос слів на інший рядок. Поведінка пробілів між словами. nowrap забороняє перенос слів на інший рядок.</p>
+		<p><mark>CSS-властивості блоків</mark></p>
+		<p>box-sizing: content-box; - (за замовченням) додає відступи до розміру об'єкту.</p>
+		<p>box-sizing: border-box; - значення розмірів враховують відступи (вказуємо в обнуленні).</p>
+		<p>Відступи PADDING та MARGIN:</p>
+		<p class="black">==================</p>
+		<div class="qwerty">
+			<p>Блочний елемент. ВНУТРІШНІЙ відступ 20px = padding: 20px;</p>
+		</div>
+		<p class="asdfg">Рядковий елемент. ВНУТРІШНІЙ відступ 20px = padding: 20px;
+		</p>
+		<p class="black">==================</p>
+		<div class="qwertyy">
+			<p>Рядковий елемент. ВНУТРІШНІЙ відступ<br>по часовій стрілці: 5px 100px 20px 5px<br>padding: 5px 100px 20px 5px;</p>
+		</div>
+		<p class="asdfgg">Рядковий елемент. ВНУТРІШНІЙ відступ <br>по часовій стрілці: 5px 100px 20px 5px<br>padding:  5px 100px 20px 5px;</p>
+		<p class="black">==================</p>
+		<div class="poiuy">
+			<p>Блочний елемент. ЗОВНІШНІЙ відступ 20px = margin: 20px;</p>
+		</div>
+		<p class="lkjhg">Рядковий елемент. ЗОВНІШНІЙ відступ 20px = margin: 20px;</p>
+		<p class="black">==================</p>
+		<div class="poiuyy">
+			<p>Блочний елемент. ЗОВНІШНІЙ відступ <br>по часовій стрілці: 5px 100px 20px 5px<br>margin:  5px 100px 20px 5px;</p>
+		</div>
+		<p class="lkjhgg">Рядковий елемент. ЗОВНІШНІЙ відступ <br>по часовій стрілці: 5px 100px 20px 5px<br>margin  5px 100px 20px 5px;</p>
+		<p class="black">==================</p>
+		<p>Ширина блочного елементу width. Не працює з рядковими елементами.</p>
+		<div class="qwerty" style="width: 250px; text-align: center;">
+			<p>Блочний елемент з шириною 250px.</p>
+			<p>width: 250px;</p>
+		</div>
+		<p class="black">==================</p>
+		<div class="qwerty" style="width: 30%; text-align: center;">
+			<p>Блочний елемент з шириною 30%px.</p>
+			<p>width: 30%;</p>
+		</div>
+		<p class="black">==================</p>
+		<a href="#top" class="link">ВГОРУ</a>
+		
+	</main>
+	<footer></footer>
+</body>
+
+</html>

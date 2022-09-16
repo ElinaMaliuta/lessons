@@ -1,0 +1,147 @@
+h1{
+	font-size: 30px;
+}
+h2{
+	font-size: 20px;
+}
+h3{
+	font-size: 16px;
+	font-weight: 900;
+}
+p.black{
+	color: black;
+}
+div.text{
+	color: blueviolet;
+}
+.text.lesson{
+	color: blue;
+}
+.aaa{
+	color: crimson;
+}
+.bbb{
+	color: darkblue;
+}
+.ccc,
+.ddd{
+	color: chocolate;
+}
+p.eee{
+	color: chartreuse;
+}
+.fff p{
+	color: aqua;
+}
+.ggg .hhh{
+	color: brown;
+}
+.jjj > p{
+	color: darkolivegreen;
+}
+.kkk ~ p{
+	color: darkmagenta;
+}
+
+.qqq + p{
+	color: hotpink;
+}
+.lll~p{
+	color: black;
+}
+p.black{
+	color: black;
+}
+.montserrat {
+	font-family: Montserrat;
+	font-weight:700;
+}
+.caveat400 {
+	font-family: Caveat;
+	font-weight:400;
+}
+.caveat700 {
+	font-family: Caveat;
+	font-weight:700;
+}
+.roboto {
+	font-family: Montserrat;
+	font-weight:700;
+	font-style: italic;
+}
+.qqww{
+	font-family: "Montserrat", "Caveat", sans-serif;
+}
+.eerr {
+	font-size: 16px;
+}
+.ttyy {
+	font-size: 30px;
+}
+.uuii {
+	font-size: 40px;
+}
+.oopp {
+	font-style: italic;
+}
+.aass {
+	font-style: oblique;
+}
+.ddff {
+	font-weight: 100;
+}
+.gghh {
+	font-weight: 300;
+}
+.jjkk {
+	font-weight: 400;
+}
+.zzxx {
+	font-weight: 500;
+}
+.ccvv {
+	font-weight: 600;
+}
+.bbnn {
+	font-weight: 700;
+}
+.qwe {
+	font-weight: 900;
+}
+.qwerty{
+	background-color: deepskyblue;
+	padding: 20px;
+}
+.asdfg {
+	background-color: yellow;
+	padding: 20px;
+}
+.qwertyy {
+	background-color: deepskyblue;
+	padding: 5px 200px 20px 5px;
+}
+.asdfgg {
+	background-color: yellow;
+	padding: 5px 200px 20px 5px;
+}
+.poiuy {
+	background-color: deepskyblue;
+	margin: 20px;
+}
+.lkjhg {
+	background-color: yellow;
+	margin: 20px;
+}
+.poiuyy {
+	background-color: deepskyblue;
+	margin: 5px 200px 20px 5px;
+}
+.lkjhgg {
+	background-color: yellow;
+	margin: 5px 200px 20px 5px;
+}
+
+
+
+
+
