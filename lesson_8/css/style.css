@@ -1,0 +1,220 @@
+ [class*="__container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+	margin-left: 5px;
+ }
+ body{
+	font-family: Lato;
+	font-style: normal;
+ }
+ h1{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 59.8px;
+	margin-bottom: 40px;
+	color: #1E212C;
+ }
+ .text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25.6px;
+	color: #424551;
+	margin-bottom: 48px;
+ }
+ h2{
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 24px;
+ }
+
+ .text ul{
+	padding: 0px 0px 0px 32px;
+	margin-bottom: 180px;
+ }
+ .text li::before{
+	content: '';
+	display: inline-block;
+	background: url("../img/check.svg") 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	margin: 0px 16px -2px -32px;
+
+ }
+
+.text-caps {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	text-transform: uppercase;
+	color: #1E212C;
+	margin-bottom: 8px;
+}
+h3{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 59.8px;
+	color: #1E212C;
+	margin-bottom: 15px;
+ }
+ .profession{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	color: #787A80;
+	margin-bottom: 33px;
+}
+
+.course-description ul{
+	padding: 0px 0px 0px 24px;
+	margin-bottom: 32px;
+}
+
+.course-description li:nth-child(1)::before{
+	content: '';
+	display: inline-block;
+	background: url("../img/star.svg") 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	margin: 0px 8px -2px -24px;
+}
+
+.course-description li:nth-child(2)::before{
+	content: '';
+	display: inline-block;
+	background: url("../img/play.svg") 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	margin: 0px 8px -2px -24px;
+}
+
+.course-description li:nth-child(3)::before{
+	content: '';
+	display: inline-block;
+	background: url("../img/profile.svg") 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	margin: 0px 8px -2px -24px;
+}
+
+
+.hw h2{
+	margin: 20px 0px 20px 0px;
+	font-size: 46px;
+	color: #1E212C;
+}
+.hw h3{
+	font-size: 20px;
+	margin: 10px 0px 10px 0px;
+	line-height: 150%;
+}
+.hw h4{
+	font-size: 20px;
+	margin: 10px 0px 10px 0px;
+	line-height: 150%;
+	text-align: center;
+}
+.hw p, li {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25.6px;
+	color: #424551;
+}
+.block{
+	width: 100%;
+	height: 60px;
+	border: 1px dashed black;
+	margin-bottom: 5px;
+	padding-left: 5px;
+}
+.hover:hover{
+	background-color: rgba(0, 0, 255, 0.6);
+	color: white;
+}
+.mark-violet{
+	background:violet;
+	padding: 1px;	  
+	max-width: max-content;
+	font-weight: 700;
+}
+.visited a:visited{
+		color: violet;
+}
+.focus:focus{
+	background-color: rgba(0, 0, 255, 0.6);
+	outline: 1px solid red;
+}
+.input{
+	width: 100%;
+	height: 60px;
+	border: 1px dashed black;
+	margin-bottom: 5px;
+}
+.input:focus {
+	color: orange;
+ }
+ .target{
+	width: 100%;
+	border: 1px dashed black;
+	margin-bottom: 5px;
+	padding-left: 5px;
+ }
+ p:target{
+	color: rgba(0, 0, 255, 0.6);
+ }
+ .first-child p:first-child{
+	text-transform: uppercase;
+}
+.first-of-type p:first-of-type{
+	text-transform: uppercase;
+}
+.last-child p:last-child{
+	text-transform: uppercase;
+}
+.last-of-type p:last-of-type{
+	text-transform: uppercase;
+}
+.nth-child p:nth-child(2){
+	color:violet;
+}
+.nth-child-3 p:nth-child(3){
+	color:violet;
+}
+	
+.nth-child-even p:nth-child(even){
+	color:violet;
+}
+.nth-child-odd p:nth-child(odd){
+	color:violet;
+}
+.nth-child-n p:nth-child(-n+3){
+	color:violet;
+}
+.not p:not(.not){
+	color:violet;
+}
+.psevdoelementy ol li::before{
+	background: url('../img/Play.jpg');
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+}
+.psevdoelementy ul li::after{
+	background: url('../img/Play.jpg');
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
