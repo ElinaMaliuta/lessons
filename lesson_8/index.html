@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 8</title>
+</head>
+
+<body>
+	<header class="header__container">
+
+	</header>
+
+	<main class="main__container">
+		<h1 id="beginning">About the course</h1>
+		<div class="paragraph-first">
+			<p class="text-post">Bibendum vulputate adipiscing venenatis at est, a eu tincidunt. Leo aenean congue in sagittis, felis maecenas amet varius at. Pellentesque euismod in faucibus at elementum. Tellus maecenas libero est tempus sit cras at malesuada diam. Consequat senectus dictumst non hac dignissim montes, pretium, egestas molestie. Sed magna aliquet ornare nibh vel lectus diam eget pretium. Lorem risus nunc tincidunt tortor, mi nulla pellentesque
+			</p>
+		</div>
+		<h2>You will learn:</h2>
+		<div class="list">
+			<ul class="text-post">
+				<li>A fermentum in morbi pretium aliquam adipiscing donec tempus.</li>
+				<li>Vulputate placerat amet pulvinar lorem nisl.</li>
+				<li>Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed. Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed. Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed. Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.</li>
+				<li>Etiam duis lobortis in fames ultrices commodo nibh.</li>
+				<li>Fringilla in nec risus congue venenatis pretium posuere nec.</li>
+				<li>Cursus eu pretium, vulputate tempus quam massa sed at. </li>
+			</ul>
+		</div>
+		<div class="text-post-caps">
+			<p>Course curator</p>
+		</div>
+		<h3>Cody Fisher</h3>
+		<div class="profession">
+			<p>Senior UX designer in IT Product Company</p>
+		</div>
+		<div class="course-description">
+			<ul>
+				<li class="icon-star">4.9 rate</li>
+				<li class="icon-play">4 courses Nostrud proident aliqua velit esse voluptate ad mollit officia tempor aute est cupidatat laboris commodo. Occaecat reprehenderit laborum est proident. Sit officia et laboris anim deserunt.</li>
+				<li class="icon-profile">350 students</li>
+			</ul>
+		</div>
+		<div class="paragraph-two">
+			<p class="text-post">Mattis adipiscing aliquam eu proin metus a iaculis faucibus. Tempus curabitur venenatis, vulputate venenatis fermentum ante. Nisl, amet id semper semper quis commodo, consequat. Massa rhoncus sit morbi odio. Sit maecenas nibh consectetur vel diam. Sem vulputate molestie laoreet at massa sed pharetra. Ac commodo platea id habitasse proin. Nullam sit nec ipsum posuere non. Nam vel aliquam tristique sollicitudin interdum quam. </p>
+		</div>
+	
+				
+		
+		<div class="hw">
+			<h2>Домашнє завдання до уроку № 8</h2>
+			<h3>Завдання:</h3>
+			<ol>
+				<li>1) Верстаємо статтю з 2х блоків (з макету OnlineCourse). Другий блок просто під першим. Контейнер такий як на всій сторінці.</li>
+				<li>2) Нижче пропрацьовуємо УСІ псевдокласи та псевдоелементи з 8го уроку.</li>
+				<li>3) (Додатково) Робимо гру "Спіймай якщо зможеш".</li>
+			</ol>
+			<h3>Розв'язання:</h3>
+			<p>1. Верстаємо статтю з 2х блоків (з макету OnlineCourse). Другий блок просто під першим. Контейнер такий як на всій сторінці. Див. <a href="#beginning" class="link">вище</a>.</p>
+			<p>2. Нижче пропрацьовуємо УСІ псевдокласи та псевдоелементи з 8го уроку.</p>
+			<h4>Псевдокласи</h4>
+			<h4>Псевдокласи стану</h4>
+			<div class="block hover">
+				<span class="mark-violet">:hover </span>- звернення до елемента у стані "при наведенні миші". Застосовується до будь-якого елемента.
+			</div>
+			<div class="block visited">
+				<p><span class="mark-violet">:visited</span>- звернення до елемента Обмежена кількість властивостей.</p>
+				<a href="https://www.google.com">GOOGLE</a>, <a href="https://fls.guru">fls.guru</a>, <a href="https://www.youtube.com">youtube.com</a>, <a href="vvv.com">vvv.com</a>
+			</div>
+			<input class="input" value=":focus - звернення до елементу у стані фокусу.">
+			<div class="target">
+				<p><span class="mark-violet">:target </span>- звернення до елемента у стані "ефекту від посилання з іншого об'єкту". Приклад:</p>
+				<p>Назва статті</p>
+				<ol>
+					<li><a href="#rozdil-one" class="link">1. Розділ 1.</a></li>
+					<li><a href="#rozdil-two" class="link">2. Розділ 2.</a></li>
+					<li><a href="#rozdil-three" class="link">3. Розділ 3.</a></li>
+				</ol>
+				<p id="rozdil-one">Розділ 1.</p>
+				<p id="rozdil-two">Розділ 2.</p>
+				<p id="rozdil-three">Розділ 3.</p>
+			</div>
+			<h4>Псевдокласи положення у коді</h4>
+			<p><span class="mark-violet">:first-child</span> - звернення до першого елементу в коді.</p>
+			<div class="first-child">
+				<p>Параграф 1</p>
+				<p>Параграф 2</p>
+				<p>Параграф 3</p>
+				<p>Параграф 4</p>
+				<p>Параграф 5</p>
+			</div>
+			<p><span class="mark-violet">:first-of-type</span> - звернення до першого вказаного об'єкту в коді.</p>
+			<div class="first-of-type">
+				<p>Параграф 1</p>
+				<p>Параграф 2</p>
+				<p><span>Параграф 3</span></p>
+				<p><em>Параграф 4</em></p>
+				<p>Параграф 5</p>
+			</div>
+			<p><span class="mark-violet">:last-child</span> - звернення до останнього об'єкту в коді.</p>
+			<div class="last-child">
+				<p>Параграф 1</p>
+				<p>Параграф 2</p>
+				<p>Параграф 3</p>
+				<p>Параграф 4</p>
+				<p>Параграф 5</p>
+			</div>
+			<p><span class="mark-violet">:last-of-type</span> - звернення до останнього вказаного об'єкту в коді.</p>
+			<div class="last-of-type">
+				<p>Параграф 1</p>
+				<p>Параграф 2</p>
+				<p>Параграф 3</p>
+				<p>Параграф 4</p>
+				<p>Параграф 5</p>
+			</div>
+			<p><span class="mark-violet">:nth-child (порядковий номер елементу)</span> - звернення до конкретного елементу в коді.</p>
+			<p>odd - через один не парні<br>even - через один парні</p>
+			<p><strong>Приклад 1: p:<span class="mark-violet">nth-child(2)</span></strong></p>
+			<div class="nth-child">
+				<p>Параграф 1</p>
+				<p>Параграф 2</p>
+				<p>Параграф 3</p>
+				<p>Параграф 4</p>
+				<p>Параграф 5</p>
+			</div>
+			<p><strong>Приклад 2: p:<span class="mark-violet">nth-child(3)</span></strong></p>
+			<div class="nth-child-3">
+				<p>Параграф 1</p>
+				<p>Параграф 2</p>
+				<p>Параграф 3</p>
+				<p>Параграф 4</p>
+				<p>Параграф 5</p>
+			</div>
+			<p><strong>Приклад 3: p:<span class="mark-violet">nth-child(even)</span></strong></p>
+			<div class="nth-child-even">
+				<p>Параграф 1</p>
+				<p>Параграф 2</p>
+				<p>Параграф 3</p>
+				<p>Параграф 4</p>
+				<p>Параграф 5</p>
+			</div>
+			<p><strong>Приклад 4: p:<span class="mark-violet">nth-child(odd)</span></strong></p>
+			<div class="nth-child-odd">
+				<p>Параграф 1</p>
+				<p>Параграф 2</p>
+				<p>Параграф 3</p>
+				<p>Параграф 4</p>
+				<p>Параграф 5</p>
+			</div>			
+			<p><strong>Приклад 5: p:<span class="mark-violet">nth-child(-n+3)</span></strong></p>
+			<div class="nth-child-n">
+				<p>Параграф 1</p>
+				<p>Параграф 2</p>
+				<p>Параграф 3</p>
+				<p>Параграф 4</p>
+				<p>Параграф 5</p>
+			</div>
+			<p><span class="mark-violet">:not(селектор)</span> - псевдоклас виключення.</p>
+			<div class="not">
+				<p>Параграф 1</p>
+				<p>Параграф 2</p>
+				<p>Параграф 3</p>
+				<p>Параграф 4</p>
+				<p>Параграф 5</p>
+			</div>
+			<h4>Псевдоелементи (рядкові)</h4>
+			<p><span class="mark-violet">::before{}</span> - об'єкт перед елементом</p>
+			<p><span class="mark-violet">::after{}</span> - об'єкт після елементу</p>
+			<p>{content: "";} - обов'язковий атрибут</p>
+			<p>{display: inline-block;} - зробити елемент рядковим, якщо він блочний</p>
+			<div class="psevdoelementy">
+				<ol>
+					<li>Розділ 1.</li>
+					<li>Розділ 2.</li>
+					<li>Розділ 3.</li>
+					<li>Розділ 4.</li>
+					<li>Розділ 5.</li>
+				</ol>
+				<ul>
+					<li>Розділ 1.</li>
+					<li>Розділ 2.</li>
+					<li>Розділ 3.</li>
+					<li>Розділ 4.</li>
+					<li>Розділ 5.</li>
+				</ul>
+			</div>
+			<p>Список нумерований після обнулення</p>
+				<div class="menu">
+					<ol>
+						<li>Пункт 1</li>
+						<li>Пункт 2</li>
+						<li>Пункт 3
+							<ol>
+								<li>Пункт 3.1</li>
+								<li>Пункт 3.2
+									<ol>
+										<li>Підпункт 3.2.1</li>
+										<li>Підпункт 3.2.2</li>
+									</ol>
+								</li>
+								<li>Пункт 3.3</li>
+								<li>Пункт 3.4</li>
+							</ol>
+						</li>
+						<li>Пункт 4</li>
+						<li>Пункт 5</li>
+					</ol>
+				</div>
+				<p>Список з підпунктами</p>
+				<div class="menu-list">
+					<ul>
+						<li>1.</li>
+						<li>2.</li>
+						<li>3 ->
+							<ul>
+								<li>3.1</li>
+								<li>3.2</li>
+								<li>3.3</li>
+								<li>3.4</li>
+							</ul>
+						</li>
+						<li>4.</li>
+						<li>5 ->
+							<ul>
+								<li>5.1</li>
+								<li>5.2</li>
+								<li>5.3</li>
+								<li>5.4</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+		</div>
+	</main>
+	<footer class="footer__container">
+		<div class="button-previus"><a href="https://elinamaliuta.github.io/lessons/lesson_7/" target="_blank">&#8592; Попередній урок</a></div>
+		<div class="button-up"><a href="#beginning" class="link">&#8593; Вгору &#8593;</a></div>
+		<div class="button-next"><a href="https://elinamaliuta.github.io/lessons/lesson_9/" target="_blank">Наступний урок &#8594;</a></div>
+	</footer>	
+</body>
+
+</html>
