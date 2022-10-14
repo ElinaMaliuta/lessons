@@ -1,0 +1,73 @@
+[class*="__container"]{
+	max-width: 810px;
+	margin: 0 auto;
+ }
+ body{
+	font-family: Lato;
+	font-style: normal;
+ }
+ h1{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 85px;
+ }
+.main__picture {
+	max-width: 100%;
+	border-radius: 4px;
+	margin-bottom: 60px;
+}
+.main__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+.main__text-bold {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+}
+.main__text-margin-twenty-four {
+	margin-bottom: 24px;
+}
+.main__text-margin-forty-eight {
+	margin-bottom: 48px;
+}
+.main__transparent-paragraph{
+	visibility: hidden;
+}
+.main__quotes {
+	background: url("../img/braces.svg") 0 5px no-repeat;
+	padding-left: 58px;
+	margin-bottom: 48px;
+}
+.main__list {
+	margin-bottom: 24px;
+
+}
+.main__list li {
+	background: url("../img/check.svg") 0 5px no-repeat;
+	padding-left: 32px;
+}
+
+.button{
+	display: inline-block;
+	width: 30%;
+	height: 30px;
+	margin: 0 auto 15px auto;
+	padding: 5px 0px;
+	border: solid black 1px;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.button:hover{
+	transform: scale(1.1);
+	transition: 0.3s;
+	background-color: white;
+}
