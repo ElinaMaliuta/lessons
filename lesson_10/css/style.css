@@ -1,0 +1,28 @@
+[class*="__container"]{
+	max-width: 810px;
+	margin: 0 auto;
+ }
+ body{
+	font-family: Lato;
+	font-style: normal;
+ }
+
+
+.button-for-footer{
+	display: inline-block;
+	width: 30%;
+	height: 30px;
+	margin: 0 auto 15px auto;
+	padding: 5px 0px;
+	border: solid black 1px;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.button-for-footer:hover{
+	transform: scale(1.1);
+	transition: 0.3s;
+	background-color: white;
+}
