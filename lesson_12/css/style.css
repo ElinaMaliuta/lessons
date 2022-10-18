@@ -1,0 +1,185 @@
+[class*="__container"]{
+	width: 1210px;
+	margin: 0 auto;
+ }
+.forest-with-animals {
+	position: relative;
+}
+.forest {
+	max-width: 100%;
+	position: relative;
+	z-index: 2;
+}
+.button-for-rabbit-with-balloons{
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	background: green;
+	position: absolute;
+	z-index: 10;
+	bottom: 200px;
+	left: 260px;
+	opacity: 0;
+}
+.rabbit-with-balloons{
+	width: 400px;
+	position: absolute;
+	right: 580px;
+	top: 750px;
+	z-index: 0;
+	opacity: 1;
+}
+.button-for-rabbit-with-balloons:hover +.rabbit-with-balloons {
+	top: 300px;
+	transition: 2s;
+	transform: rotate(20deg);
+}
+
+.button-for-birds{
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+	background: red;
+	position: absolute;
+	z-index: 5;
+	bottom: 700px;
+	left: 0px;
+	opacity: 0;
+}
+.birds{
+	width: 300px;
+	position: absolute;
+	left: -90px;
+	top: 270px;
+	z-index: 0;
+}
+.button-for-birds:hover +.birds {
+	left: 1300px;
+	top: 110px;
+	transition: 5s;
+	transform: scale(0.5);
+}
+.sun{
+	width: 300px;
+	position: absolute;
+	right: 580px;
+	top: 50px;
+	z-index: 0;
+}
+.button-for-sun{
+	display: inline-block;
+	width: 300px;
+	height: 250px;
+	background:yellow;
+	position: absolute;
+	z-index: 5;
+	top: 80px;
+	left: 350px;
+	opacity: 0;
+}
+.button-for-sun:hover +.sun {
+	transition: 2s;
+	transform: scale(1.3);
+	transform: rotate(360deg);
+}
+.button-for-butterfly{
+	display: inline-block;
+	width: 250px;
+	height: 300px;
+	background: blue;
+	position: absolute;
+	z-index: 4;
+	top: 550px;
+	right: 0px;
+	opacity: 0;
+}
+.butterfly-part-right{
+	width: 80px;
+	position: absolute;
+	right: 56px;
+	top: 610px;
+	z-index: 3;
+	opacity: 1;
+	transition: transform 1s linear;
+}
+.butterfly-part-left{
+	width: 80px;
+	position: absolute;
+	right: 135px;
+	top: 610px;
+	z-index: 3;
+	opacity: 1;
+	transition: transform 3s linear;
+}
+.button-for-butterfly:hover ~.butterfly-part-right{
+	transform-origin: left;
+	transform: rotateY(50deg);
+}
+.button-for-butterfly:hover ~.butterfly-part-left{
+	transform-origin: right;
+	transform: rotateY(50deg);
+}
+
+.button-for-gates {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background: brown;
+	position: absolute;
+	z-index: 4;
+	opacity: 0;
+	bottom: 120px;
+	right: 180px;
+}
+.gates-left {
+	width: 80px;
+	position: absolute;
+	z-index: 2;
+	bottom: 0px;
+	right: 280px;
+	bottom: 140px;
+	transition: transform 3s;
+}
+.gates-right {
+	width: 80px;
+	position: absolute;
+	z-index: 2;
+	bottom: 0px;
+	right: 200px;
+	bottom: 140px;
+	transition: transform 1s;
+}
+.button-for-gates:hover ~.gates-left{
+	transform-origin: left;
+	transform: rotateY(70deg);
+}
+.button-for-gates:hover ~.gates-right{
+	transform-origin: right;
+	transform: rotateY(70deg);
+}
+
+/* FOOTER */
+
+.footer__container{
+	margin-top: 15px;
+}
+.button-for-footer{
+	display: inline-block;
+	width: 30%;
+	height: 30px;
+	margin: 0 auto 15px auto;
+	padding: 5px 0px;
+	border: solid black 1px;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	position: relative;
+	z-index: 5;
+}
+.button-for-footer:hover{
+	transform: scale(1.1);
+	transition: 0.3s;
+	background-color: white;
+}
