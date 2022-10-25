@@ -1,0 +1,207 @@
+[class*="__container"]{
+	width: 1210px;
+	margin: 0 auto;
+}
+ .main__container{
+	background-color: rgba(0, 0, 255, 0.861);
+	animation: sky-brightens 3s linear 4s 1 normal forwards;
+	overflow: hidden;
+ }
+ @keyframes sky-brightens{
+	0%{background-color: rgba(0, 0, 255, 0.861);}
+	100%{background-color: rgba(0, 217, 255, 0.913);}
+}
+img{
+	max-width: 100%;
+}
+.forest-with-animals{
+	position: relative;
+}
+.stars{
+	position: absolute;
+	max-width: 100%;
+	left: 0;
+	z-index: 0;
+	display: none;
+}
+.forest{
+	position: relative;
+	z-index: 2;
+}
+.moon {
+	position: absolute;
+	width: 200px;
+	left: 300px;
+	top: 190px;
+	animation: star-leave-3s 3s linear 1s 1 normal forwards;
+}
+.sun{
+	position: absolute;
+	width: 300px;
+	opacity: 0;
+	animation: sun-rises 3s linear 4s 1 normal forwards;
+}
+@keyframes sun-rises {
+	0%		{top: 800px;
+			left: 300px;
+			transform: scale(1.1);
+			opacity: 1;
+			}
+	100% {transform: scale(0.7);
+			opacity: 1;
+			left: 450px;
+			top: 50px;
+			}
+}
+.star-1,.star-2,.star-3,.star-4,.star-5,.star-6,.star-7,.star-8,.star-9{
+	position: absolute;
+	width: 40px;
+}
+.star-1{
+	left: 200px;
+	top: 350px;
+	animation: star-leave-2s 3s linear 2s 1 normal forwards;
+}
+.star-2{
+	left: 850px;
+	top: 500px;
+	animation: star-leave-4s 3s linear 1s 1 normal forwards;
+}
+.star-3{
+	left: 600px;
+	top: 650px;
+	animation: star-leave-4s 3s linear 1s 1 normal forwards;
+}
+.star-4{
+	left: 700px;
+	top: 100px;
+	animation: star-leave-1s 3s linear 1s 1 normal forwards;
+}
+.star-5{
+	left: 400px;
+	top: 600px;
+	animation: star-leave-1s 3s linear 1s 1 normal forwards;
+}
+.star-6{
+	left: 600px;
+	top: 340px;
+	animation: star-leave-4s 3s linear 1s 1 normal forwards;
+}
+.star-7{
+	left: 890px;
+	top: 250px;
+	animation: star-leave-1s 3s linear 1s 1 normal forwards;
+}
+.star-8{
+	left: 270px;
+	top: 700px;
+	animation: star-leave-4s 3s linear 1s 1 normal forwards;
+}
+.star-9{
+	left: 890px;
+	top: 700px;
+	animation: star-leave-1s 3s linear 1s 1 normal forwards;
+}
+@keyframes star-leave-1s {
+	0%{transform: scale(1);}
+	20%{transform: scale(1);}
+	40%{transform: scale(1);}
+	60% {opacity: 0.5;}
+	80%{opacity: 0.2; transform: scale(0.8);}
+	100%{opacity: 0; transform: scale(0.5);}
+}
+@keyframes star-leave-2s {
+	0%{transform: scale(1);}
+	20%{transform: scale(1);}
+	40%{transform: scale(1);}
+	60% {opacity: 0.5;}
+	80%{opacity: 0.2; transform: scale(0.8);}
+	100%{opacity: 0; transform: scale(0.8);}
+}
+@keyframes star-leave-3s {
+	0%{transform: scale(1);}
+	20%{transform: scale(1);}
+	40%{transform: scale(1);}
+	60% {opacity: 0.5;}
+	80%{opacity: 0.2; transform: scale(0.8);}
+	100%{opacity: 0; transform: scale(0.5);}
+}
+@keyframes star-leave-4s {
+	0%{transform: scale(1);}
+	20%{transform: scale(1);}
+	40%{transform: scale(1);}
+	60% {opacity: 0.5;}
+	80%{opacity: 0.2; transform: scale(0.8);}
+	100%{opacity: 0; transform: scale(0.5);}
+}
+.gates-left {
+	width: 80px;
+	position: absolute;
+	z-index: 5;
+	bottom: 0px;
+	right: 280px;
+	bottom: 140px;
+	animation: gates-left-open 2s linear 8s 1 normal forwards;
+}
+@keyframes gates-left-open{
+	100% {
+		transform-origin: left;
+		transform: rotateY(70deg);
+	}
+}
+.gates-right {
+	width: 80px;
+	position: absolute;
+	z-index: 2;
+	bottom: 0px;
+	right: 200px;
+	bottom: 140px;
+	animation: gates-right-open 2s linear 8s 1 normal forwards;
+}
+@keyframes gates-right-open{
+	100% {
+		transform-origin: right;
+		transform: rotateY(70deg);
+	}
+}
+.birds{
+	width: 300px;
+	position: absolute;
+	left: -255px;
+	top: 270px;
+	z-index: 0;
+	animation: birds-fly 5s linear 11s 1 normal forwards;
+}
+@keyframes birds-fly {
+	100% {
+		left: 1300px;
+		top: 110px;
+		transform: scale(0.5);
+	}
+}
+
+/* FOOTER */
+
+.footer__container{
+	margin-top: 15px;
+}
+.button-for-footer{
+	display: inline-block;
+	width: 30%;
+	height: 30px;
+	margin: 0 auto 15px auto;
+	padding: 5px 0px;
+	border: solid black 1px;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	position: relative;
+	z-index: 5;
+}
+.button-for-footer:hover{
+	transform: scale(1.1);
+	transition: 0.3s;
+	background-color: white;
+}
