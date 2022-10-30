@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 14</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header id="top" class="header">
+			<div class="header__container">
+				<p>FLEX-модуль</p>
+			</div>
+		</header>
+
+		<main class="main">
+			<div class="main__container">
+				<div class="flex">
+					<h3>Властивості flex-контейнера</h3>
+					<h3>justify-content</h3>
+					<h2>justify-content: flex-start;</h2>
+					<div class="flex__container-1">
+						<div class="flex__element">1</div>
+						<div class="flex__element">2</div>
+						<div class="flex__element">3</div>
+					</div>
+
+					<h2>justify-content: flex-end;</h2>
+					<div class="flex__container-2">
+						<div class="flex__element">1</div>
+						<div class="flex__element">2</div>
+						<div class="flex__element">3</div>
+					</div>
+
+
+					<h2>justify-content: center;</h2>
+					<div class="flex__container-3">
+						<div class="flex__element">1</div>
+						<div class="flex__element">2</div>
+						<div class="flex__element">3</div>
+					</div>
+
+
+					<h2>justify-content: space-between;</h2>
+					<div class="flex__container-4">
+						<div class="flex__element">1</div>
+						<div class="flex__element">2</div>
+						<div class="flex__element">3</div>
+					</div>
+
+
+					<h2>justify-content: space-around;</h2>
+					<div class="flex__container-5">
+						<div class="flex__element">1</div>
+						<div class="flex__element">2</div>
+						<div class="flex__element">3</div>
+					</div>
+
+					<h2>justify-content: space-evenly;</h2>
+					<div class="flex__container-6">
+						<div class="flex__element">1</div>
+						<div class="flex__element">2</div>
+						<div class="flex__element">3</div>
+					</div>
+
+					<h3>align-items</h3>
+					<h2>align-items: flex-start;</h2>
+					<div class="flex__container-7">
+						<div class="flex__element">1</div>
+						<div class="flex__element">2</div>
+						<div class="flex__element">3</div>
+					</div>
+
+					<h2>align-items: flex-end;</h2>
+					<div class="flex__container-8">
+						<div class="flex__element">1</div>
+						<div class="flex__element">2</div>
+						<div class="flex__element">3</div>
+					</div>
+
+					<h2>align-items: center;</h2>
+					<div class="flex__container-9">
+						<div class="flex__element">1</div>
+						<div class="flex__element">2</div>
+						<div class="flex__element">3</div>
+					</div>
+
+					<h2>align-items: baseline;</h2>
+					<div class="flex__container-10">
+						<div class="flex__element">1</div>
+						<div class="flex__element-222">2</div>
+						<div class="flex__element">3</div>
+					</div>
+
+					<h2>align-items: stretch;</h2>
+					<div class="flex__container-11">
+						<div class="flex__element">1</div>
+						<div class="flex__element">2</div>
+						<div class="flex__element">3</div>
+					</div>
+
+					<h3>Напрямок/порядок FLEX-елементів</h3>
+					<h3>flex-direction</h3>
+					<h2>flex-direction: row;</h2>
+					<div class="flex__container-12">
+						<div class="flex__element">1</div>
+						<div class="flex__element">2</div>
+						<div class="flex__element">3</div>
+					</div>
+
+					<h2>flex-direction: row-revers;</h2>
+					<div class="flex__container-13">
+						<div class="flex__element">1</div>
+						<div class="flex__element">2</div>
+						<div class="flex__element">3</div>
+					</div>
+
+					<h2>flex-direction: column;</h2>
+					<div class="flex__container-14">
+						<div class="flex__element">1</div>
+						<div class="flex__element">2</div>
+						<div class="flex__element">3</div>
+					</div>
+
+
+					<h2>flex-direction: column-revers;</h2>
+					<div class="flex__container-15">
+						<div class="flex__element">1</div>
+						<div class="flex__element">2</div>
+						<div class="flex__element">3</div>
+					</div>
+					<h3>Перехід flex-елементів на другий рядок</h3>
+					<h3>flex-wrap</h3>
+					<h2>flex-wrap: wrap;</h2>
+					<div class="flex__container-16">
+						<div class="flex__element-1">1</div>
+						<div class="flex__element-2">2 Lorem ipsum dolor sit, acing eincidunt possimus cum nemo adipisci
+							aspernatur</div>
+						<div class="flex__element-1">3</div>
+					</div>
+
+					<h2>flex-wrap: nowrap;</h2>
+					<div class="flex__container-17">
+						<div class="flex__element-1">1</div>
+						<div class="flex__element-3">2 Lorem ipsum dolor sit, acing eincidunt possimus cum nemo adipisci
+							aspernatur</div>
+						<div class="flex__element-1">3</div>
+					</div>
+
+					<h2>flex-wrap: wrap-revers;</h2>
+					<div class="flex__container-18">
+						<div class="flex__element-1">1</div>
+						<div class="flex__element-2">2 Lorem ipsum dolor sit, acing eincidunt possimus cum nemo adipisci
+							aspernatur</div>
+						<div class="flex__element-1">3</div>
+					</div>
+					<h3>Властивості окремих flex-елементів</h3>
+					<h3>order</h3>
+					<h2>order: 2; - порядковий номер flex-елементу</h2>
+					<div class="flex__container-19">
+						<div class="flex__element-11">1 order: 2;</div>
+						<div class="flex__element-22">2 order: 3;</div>
+						<div class="flex__element-33">3 order: 1;</div>
+					</div>
+
+					<h3>align-self</h3>
+					<h2>align-self: flex-start;</h2>
+					<div class="flex__container-20">
+						<div class="flex__element-111">1</div>
+						<div class="flex__element-222">2 align-self: flex-start;</div>
+						<div class="flex__element-111">3</div>
+					</div>
+
+					<h2>align-self: flex-end;</h2>
+					<div class="flex__container-21">
+						<div class="flex__element-111">1</div>
+						<div class="flex__element-333">2 align-self: flex-end;</div>
+						<div class="flex__element-111">3</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="exemple">
+				<div class="cards">
+					<div class="cards__column">
+						<div class="cards__item item-card">
+							<div class="item-card__image">
+								<img src="img/moon.webp" alt="moon">
+							</div>
+							<div class="item-card__text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam aliquam itaque eius, iusto
+								voluptate suscipit repudiandae quasi? Eveniet, quis corrupti animi veritatis eum, blanditiis
+								tempore voluptates harum pariatur, enim voluptatum?
+							</div>
+							<a href="#" class="item-card__button">Купити</a>
+						</div>
+					</div>
+					<div class="cards__column">
+						<div class="cards__item item-card">
+							<div class="item-card__image">
+								<img src="img/star.webp" alt="star">
+							</div>
+							<div class="item-card__text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur molestias excepturi
+								molestiae nobis animi quod dolore distinctio, ex asperiores facere, saepe non? Illum, maiores
+								architecto? Commodi et unde id facere.
+							</div>
+							<a href="#" class="item-card__button">Купити</a>
+						</div>
+					</div>
+					<div class="cards__column">
+						<div class="cards__item item-card">
+							<div class="item-card__image">
+								<img src="img/sun.webp" alt="sun">
+							</div>
+							<div class="item-card__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sunt eaque odio dicta!
+							</div>
+							<a href="#" class="item-card__button">Купити</a>
+						</div>
+					</div>
+
+					<div class="cards__column">
+						<div class="cards__item item-card">
+							<div class="item-card__image">
+								<img src="img/sun.webp" alt="sun">
+							</div>
+							<div class="item-card__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sunt eaque odio dicta!
+							</div>
+							<a href="#" class="item-card__button">Купити</a>
+						</div>
+					</div>
+
+					<div class="cards__column">
+						<div class="cards__item item-card">
+							<div class="item-card__image">
+								<img src="img/sun.webp" alt="sun">
+							</div>
+							<div class="item-card__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sunt eaque odio dicta!
+							</div>
+							<a href="#" class="item-card__button">Купити</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="button-for-footer"><a href="https://elinamaliuta.github.io/lessons/lesson_12/"
+						target="_blank">&#8592; Попередній урок</a></div>
+				<div class="button-for-footer"><a href="#top" class="button-link">&#8593; Вгору &#8593;</a></div>
+				<div class="button-for-footer"><a href="https://elinamaliuta.github.io/lessons/lesson_14/"
+						target="_blank">Наступний урок &#8594;</a></div>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
