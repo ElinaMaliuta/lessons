@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson 16</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			
+			<header class="header">
+				<div class="header__container">
+		
+				</div>
+			</header>
+			
+			<main class="page">
+				<div class="page__container"></div>
+
+					<section class="page__hw hw-page">
+						
+						<h1 class="h1">Заповніть, будь ласка, анкету:</h1>
+
+						<div class="hw-page__anketa anketa-form">
+
+							<form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="anketa-form__forms form">
+								
+								<label for="name" class="form__label">*Ім'я:</label>
+								<input id="name" type="text" name="name" placeholder="Введіть ім'я. . ." required class="form__input">
+								
+								<label for="second-name" class="form__label">Прізвище:</label>
+								<input id="second-name" type="text" name="second-name" placeholder="Введіть прізвище. . ." class="form__input">
+							
+								<label for="phone" class="form__label">*Контактний номер телефону:</label>
+								<input id="phone" type="tel" name="phone" placeholder="+380ХХХХХХХХХ" required class="form__input">
+								
+								<label for="password" class="form__label">* Вигадайте собі пароль:</label>
+								<input id="password" autocomplete="off" type="password" name="password" placeholder="Введіть пароль. . ." required class="form__input">
+							
+								<h2 class="h2">Вкажіть, будь ласка, що ви плануєте придбати протягом наступного року:</h2>
+
+								<div class="checkbox">
+							
+									<div class="checkbox__item item-checkbox">
+										<input type="checkbox" id="vehicle1" name="flat" value="yes" class="item-checkbox__input">
+										<label for="flat" class="item-checkbox__label">квартира</label>
+									</div>
+							
+									<div class="checkbox__item item-checkbox">
+										<input type="checkbox" id="house" name="house" value="yes" class="item-checkbox__input">
+										<label for="house" class="item-checkbox__label">будинок</label>
+									</div>
+									
+									<div class="checkbox__item item-checkbox">
+										<input type="checkbox" id="bungalow" name="bungalow" value="yes" class="item-checkbox__input">
+										<label for="bungalow" class="item-checkbox__label">бунгало</label>
+									</div>
+
+									<div class="checkbox__item item-checkbox">
+										<input type="checkbox" id="land-plot" name="land-plot" value="yes" class="item-checkbox__input">
+										<label for="land-plot" class="item-checkbox__label">земельна ділянка</label>
+									</div>
+									
+									<div class="checkbox__item item-checkbox">
+										<input type="checkbox" id="island" name="island" value="yes" class="item-checkbox__input">
+										<label for="island" class="item-checkbox__label">острів</label>
+									</div>
+									
+									<div class="checkbox__item item-checkbox">
+										<input type="checkbox" id="electric-scooter" name="electric-scooter" value="yes" class="item-checkbox__input">
+										<label for="electric-scooter" class="item-checkbox__label">електросамокат</label>
+									</div>
+									
+									<div class="checkbox__item item-checkbox">
+										<input type="checkbox" id="car" name="car" value="yes" class="item-checkbox__input">
+										<label for="car" class="item-checkbox__label">машина</label>
+									</div>
+									
+									<div class="checkbox__item item-checkbox">
+										<input type="checkbox" id="cutter" name="cutter" value="yes"  class="item-checkbox__input">
+										<label for="cutter" class="item-checkbox__label">катер</label>
+									</div>
+
+									<div class="checkbox__item item-checkbox">
+										<input type="checkbox" id="yacht" name="yacht" value="yes" class="item-checkbox__input">
+										<label for="yacht" class="item-checkbox__label">яхта</label>
+									</div>
+
+									<div class="checkbox__item item-checkbox">
+										<input type="checkbox" id="helicopter" name="helicopter" value="yes" class="item-checkbox__input">
+										<label for="helicopter" class="item-checkbox__label">вертоліт</label>
+									</div>
+
+
+									<div class="checkbox__item item-checkbox">
+										<input type="checkbox" id="oil-well" name="oil well" value="yes" class="item-checkbox__input">
+										<label for="oil-well" class="item-checkbox__label">нафтова свердловина</label>
+									</div>
+
+									<div class="checkbox__item item-checkbox">
+										<input type="checkbox" id="uclear-power-plant" name="nuclear-power-plant" value="yes" class="item-checkbox__input">
+										<label for="uclear-power-plant" class="item-checkbox__label">атомна станція</label>
+									</div>
+
+									<div class="checkbox__item item-checkbox">
+										<input type="checkbox" id="power-plant" name="power-plant" value="yes" class="item-checkbox__input">
+										<label for="power-plant" class="item-checkbox__label">електростанція</label>
+									</div>
+
+									<div class="checkbox__item item-checkbox">
+										<input type="checkbox" id="hydroelectric-power-plant" name="hydroelectric-power-plant" value="yes" class="item-checkbox__input">
+										<label for="hydroelectric-power-plant" class="item-checkbox__label">гідроелектростанція</label>
+									</div>
+
+									<div class="checkbox__item item-checkbox">
+										<input type="checkbox" id="air-power-plant" name="air-power-plant" value="yes" class="item-checkbox__input">
+										<label for="air-power-plant" class="item-checkbox__label">повітряна електростанція</label>
+									</div>
+
+								</div>
+								
+								<h2 class="h2">Вкажіть, будь ласка, улюбене число від 1 до 10:</h2>
+								
+								<div class="multiple">
+									<select multiple name="list" class="multiple__list">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+										<option value="6">6</option>
+										<option value="7">7</option>
+										<option value="8">8</option>
+										<option value="9">9</option>
+										<option value="10">10</option>
+									</select>
+								</div>
+
+
+								<p class="h2">Ви чуйна людина?</p>
+								
+								<div class="radio-form">
+
+								  <div class="radio">
+									<input class="radio__input" type="radio" id="sensitive-person" name="sensitive-person" value="sensitive-person">
+									<label class="radio__label" for="sensitive-person">Так</label>
+								  </div>
+
+								  <div class="radio">
+									<input class="radio__input" type="radio" id="callous-person" name="sensitive-person" value="callous-person">
+									<label class="radio__label" for="callous-person">Ні</label>
+								  </div>
+							
+								</div>
+
+								<p class="h2">Як сильно Ви любите робити покупки:</p>
+
+								<div class="line">
+									<div class="begin">не люблю робити покупки</div>
+									<input class="line__input" autocomplete="off" name="range" type="range">
+									<label class="line__label" for="range">покупки - то моє життя</label>
+								</div>
+		
+
+								<p class="h2">Бажаєте написати листа Діду Морозу?</p>
+
+								<div class="letter">
+									<textarea class="letter__textarea" name="comment" cols="40" rows="6"></textarea>
+								</div>
+
+								<p class="h2">Додайте свій малюнок для Діда Мороза:</p>
+								
+								<div class="file">
+									<input class="file__input" name="file" accept="image/png, image/jpeg" multiple type="file">
+								</div> 
+							
+
+								<div class="btn">
+									<button type="submit" class="form__button">Відправити дані</button>
+									<input type="hidden" value="dsv;kljhsdf98798j" name="iam-hidden">	
+								</div>
+
+							</form>
+						</div>
+
+					</section>
+	
+			</main>
+			
+			<footer class="footer">
+				
+				<div class="footer__container">
+
+				
+
+				</div>
+			</footer>
+
+		</div>
+	</body>
+</html>
